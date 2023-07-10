@@ -161,6 +161,9 @@ strong {
   font-weight: var(--font-weight-bold);
 }
 
+.sf{
+  color:#5bc1ac
+}
 
 /*---------------------------------------
   SECTION               
@@ -623,6 +626,13 @@ strong {
 /*---------------------------------------
   FEATURE BLOCK              
 -----------------------------------------*/
+
+.integrantes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .featured-block {
   text-align: center;
   transition: all 0.5s ease;
@@ -773,6 +783,13 @@ strong {
 /*---------------------------------------
   NEWS         
 -----------------------------------------*/
+
+
+
+
+
+
+
 .news-detail-header-section {
   background-image: url('../images/pexels-ian-turnell-709563.jpg');
   background-repeat: no-repeat;
