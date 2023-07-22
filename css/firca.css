@@ -647,12 +647,17 @@ strong {
 }
 
 .featured-block:hover .featured-block-image {
-  transform: scale(0.75);
+  transform: scale(0.9);
 }
 
 .featured-block-image {
+  height: auto;
+  width: auto;
+  max-height: 300px;
+  max-width: 300px;
   display: block;
   margin: auto;
+  border-radius:25% 10%; 
   transition: all 0.5s;
 }
 
@@ -791,7 +796,7 @@ strong {
 
 
 .news-detail-header-section {
-  background-image: url('../images/pexels-ian-turnell-709563.jpg');
+  background-image: url('../images/Quehacemos/NuestroProposito.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -800,47 +805,22 @@ strong {
   padding-bottom: 150px;
 }
 
+
+
 .news-block-top {
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
 }
 
-.news-block-two-col-image-wrap {
-  border-radius: var(--border-radius-small);
-  position: relative;
-  overflow: hidden;
-  width: 150px;
-  margin-right: 20px;
-}
 
-.news-category-block {
-  background: var(--secondary-color);
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  padding: 10px 20px;
-}
 
-.news-category-block .category-block-link {
-  color: var(--white-color);
-  margin-right: 10px;
-}
 
-.news-block-info {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
 
-.news-block-title-link {
-  color: var(--dark-color);
-}
 
-.news-detail-image {
-  display: block;
-  border-radius: var(--border-radius-medium);
-}
+
+
+
 
 blockquote {
   background: var(--section-bg-color);
