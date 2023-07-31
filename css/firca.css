@@ -696,6 +696,17 @@ strong {
 
 
 /*---------------------------------------
+  Nuestros Proyectos             
+-----------------------------------------*/
+#carousel-proyect {
+  object-fit: scale-down;
+  height: 90vh;
+  width: 100%;
+}
+
+
+
+/*---------------------------------------
   COUNTER NUMBERS              
 -----------------------------------------*/
 .counter-thumb {
@@ -796,7 +807,7 @@ strong {
 
 
 .news-detail-header-section {
-  background-image: url('../images/Quehacemos/NuestroProposito.jpeg');
+  background-image: url('../images/Quehacemos/Quehacemos.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
